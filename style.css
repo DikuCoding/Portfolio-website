@@ -5,7 +5,17 @@
     margin: 0;
     padding: 0;
 }
+textarea{
+    
+    width: 60%;
+    margin: 9px 2px;
+    padding: 6px;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
 
+}
 .sidebar {
     /* background-color: gray; */
     
@@ -31,6 +41,10 @@
     text-decoration: none;
     color: black; 
     
+}
+.sidebargo{
+    transform : translate( -443px , 0px ) ;
+    position : absolute ;
 }
 
 .main {
@@ -140,6 +154,7 @@
 .form-control {
     width: 25vw;
     border-radius: 5px;
+    
     font-size: 18px;
     padding: 2px;
 }
@@ -202,10 +217,6 @@ margin: 12px;
 .fifty{
     width: 125px;
     background-color: yellow;
-}
-.sidebargo{
-    transform : translate( -443px , 0px ) ;
-    position : absolute ;
 }
 .hamburger{
      position: absolute;
